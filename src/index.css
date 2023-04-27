@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Gruppo&family=Mr+Dafoe&family=Space+Mono:ital@1&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.border{
+    border-style: solid;
+    border-width: 6px;
+    border-top-color: rgba(255, 255, 255,0.1);
+    border-right-color: rgba(255, 255, 255,0.1);
+    border-left-color: rgba(255, 0, 0, 0.4);
+    border-bottom-color: rgba(255, 0, 0, 0.4);
+}
