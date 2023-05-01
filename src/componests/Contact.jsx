@@ -7,7 +7,7 @@ export const Contact = () => {
         <h1 className='text-primaryColor mt-16 font-bold text-3xl'><span className='text-secoundColor'>K</span>ontakt</h1>
       </div>
       <div>
-        <img src='Portfolio_v2/images/rzeszow.jfif' alt='photo about me' className='w-44 sm:w-52 md:w-72 my-5 md:my-6 rounded-md rotate-3'  />
+        <img src='/images/rzeszow.jfif' alt='photo about me' className='w-44 sm:w-52 md:w-72 my-5 md:my-6 rounded-md rotate-3'  />
       </div>
       <div>
         <p className='text-primaryColor text-xl font-display'>Miejscowość: Rzeszów</p>

@@ -35,7 +35,7 @@ export const Projects = () => {
           <h2 className='text-primaryColor font-semibold text-center mb-2 md:mb-4 text-l'>Struktura drzewiasta</h2>
         </div>
         <div className='flex w-full justify-center'>
-          <img className='rounded-lg border-4 border-primaryColor h-96' src='Portfolio_v2/images/tree-structure-mobile.png'/>
+          <img className='rounded-lg border-4 border-primaryColor h-96' src='/images/tree-structure-mobile.png'/>
         </div>
       </div>
       <div className='flex flex-wrap justify-center items-center md:basis-1/2'>
@@ -68,39 +68,6 @@ export const Projects = () => {
         </div>
       </div>
       </SwiperSlide>
-      <SwiperSlide className='md:flex md:justify-center md:items-start'>
-        <div className='md:basis-1/2'>
-          <div>
-            <h2 className='text-primaryColor font-semibold text-center mb-2 md:mb-4 text-l'>Portfolio</h2>
-          </div>
-          <div className='flex w-full justify-center'>
-            <img className='rounded-lg border-4 border-primaryColor h-96' src='Portfolio_v2/images/portfolio-mobile.png'/>
-          </div>
-        </div>
-        <div className='flex flex-wrap justify-center items-center md:basis-1/2'>
-          <div className='basis-full'>
-            <h2 className='text-primaryColor font-semibold text-center mt-4 md:mt-0 md:mb-4 '>Wykorzystano technologie</h2> 
-          </div>
-          <div className='flex flex-wrap justify-center items-center'>
-            <MdHtml className='text-primaryColor text-4xl  m-2'/>
-            <MdCss className='text-primaryColor text-4xl m-2'/>
-            <MdJavascript className='text-primaryColor text-4xl m-2'/>
-            <SiTailwindcss className='text-primaryColor text-4xl m-2'/>
-            <SiReact className='text-primaryColor text-4xl m-2'/>
-            <TbJson className='text-primaryColor text-4xl m-2'/>
-            <SiVisualstudiocode className='text-primaryColor text-4xl m-2'/>
-            <SiGithub className='text-primaryColor text-4xl m-2'/>
-            <FaGit className='text-primaryColor text-4xl m-2'/>
-            <DiNpm className='text-primaryColor text-4xl m-2'/>
-            <DiNodejs className='text-primaryColor text-4xl m-2'/>
-            <SiVite className='text-primaryColor text-4xl m-2'/>
-          </div>
-          <div className='basis-full flex justify-around my-5'>
-            <a href='https://mariuszmalankiewicz.github.io/Portfolio_v2/' className='line-through text-secoundColor font-semibold text-base border-b-4 font-writeFamily rounded-md px-3 py-2'>Zobacz</a>
-            <a href='#' className='line-through text-secoundColor font-semibold text-base border-b-4 font-writeFamily rounded-md px-3 py-2'>Github</a>
-        </div>
-        </div>
-      </SwiperSlide>
 
       <SwiperSlide className='md:flex md:justify-center md:items-start'>
         <div className='md:basis-1/2'>
@@ -108,7 +75,7 @@ export const Projects = () => {
             <h2 className='text-primaryColor font-semibold text-center mb-2 md:mb-4 text-l'>Lista zadań</h2>
           </div>
           <div className='flex w-full justify-center'>
-            <img className='rounded-lg border-4 border-primaryColor h-96' src='Portfolio_v2/images/todolist.png'/>
+            <img className='rounded-lg border-4 border-primaryColor h-96' src='/images/todolist.png'/>
           </div>
         </div>
         <div className='flex flex-wrap justify-center items-center md:basis-1/2'>
@@ -136,7 +103,7 @@ export const Projects = () => {
             <h2 className='text-primaryColor font-semibold text-center mb-2 md:mb-4 text-l'>Gra w pamietanie</h2>
           </div>
           <div className='flex w-full justify-center'>
-            <img className='rounded-lg border-4 border-primaryColor h-96' src='Portfolio_v2/images/memory-game.png'/>
+            <img className='rounded-lg border-4 border-primaryColor h-96' src='/images/memory-game.png'/>
           </div>
         </div>
         <div className='flex flex-wrap justify-center items-center md:basis-1/2'>
@@ -164,7 +131,7 @@ export const Projects = () => {
             <h2 className='text-primaryColor font-semibold text-center mb-2 md:mb-4 text-l'>Gra papier, kamień i nożyczki </h2>
           </div>
           <div className='flex w-full justify-center'>
-            <img className='rounded-lg border-4 border-primaryColor h-96' src='Portfolio_v2/images/rock-scissors-paper.png'/>
+            <img className='rounded-lg border-4 border-primaryColor h-96' src='/images/rock-scissors-paper.png'/>
           </div>
         </div>
         <div className='flex flex-wrap justify-center items-center md:basis-1/2'>
@@ -186,61 +153,6 @@ export const Projects = () => {
         </div>
       </SwiperSlide>
 
-      <SwiperSlide className='md:flex md:justify-center md:items-start'>
-        <div className='md:basis-1/2'>
-          <div>
-            <h2 className='text-primaryColor font-semibold text-center mb-2 md:mb-4 text-l'>Wypożyczalnia samochodów</h2>
-          </div>
-          <div className='flex w-full justify-center'>
-            <img className='rounded-lg border-4 border-primaryColor h-96' src='Portfolio_v2/images/rent_car.png'/>
-          </div>
-        </div>
-        <div className='flex flex-wrap justify-center items-center md:basis-1/2'>
-          <div className='basis-full'>
-            <h2 className='text-primaryColor font-semibold text-center mt-4 md:mt-0 md:mb-4 '>Wykorzystano technologie</h2> 
-          </div>
-          <div className='flex flex-wrap justify-center items-center'>
-            <MdHtml className='text-primaryColor text-4xl  m-2'/>
-            <MdCss className='text-primaryColor text-4xl m-2'/>
-            <MdJavascript className='text-primaryColor text-4xl m-2'/>=
-            <SiVisualstudiocode className='text-primaryColor text-4xl m-2'/>
-            <SiGithub className='text-primaryColor text-4xl m-2'/>
-            <FaGit className='text-primaryColor text-4xl m-2'/>
-          </div>
-          <div className='basis-full flex justify-around my-5'>
-            <a href='https://mariuszmalankiewicz.github.io/rent_car/' target='blank' className='text-primaryColor font-semibold text-base border-b-4 font-writeFamily rounded-md px-3 py-2'>Zobacz</a>
-            <a href='https://github.com/MariuszMalankiewicz/rent_car' target='blank' className='text-primaryColor font-semibold text-base border-b-4 font-writeFamily rounded-md px-3 py-2'>Github</a>
-        </div>
-        </div>
-      </SwiperSlide>
-
-      <SwiperSlide className='md:flex md:justify-center md:items-start'>
-        <div className='md:basis-1/2'>
-          <div>
-            <h2 className='text-primaryColor font-semibold text-center mb-2 md:mb-4 text-l'>Kółko i krzyżyk</h2>
-          </div>
-          <div className='flex w-full justify-center'>
-            <img className='rounded-lg border-4 border-primaryColor h-96' src='Portfolio_v2/images/tic-tac-toe.png'/>
-          </div>
-        </div>
-        <div className='flex flex-wrap justify-center items-center md:basis-1/2'>
-          <div className='basis-full'>
-            <h2 className='text-primaryColor font-semibold text-center mt-4 md:mt-0 md:mb-4 '>Wykorzystano technologie</h2> 
-          </div>
-          <div className='flex flex-wrap justify-center items-center'>
-            <MdHtml className='text-primaryColor text-4xl  m-2'/>
-            <MdCss className='text-primaryColor text-4xl m-2'/>
-            <MdJavascript className='text-primaryColor text-4xl m-2'/>=
-            <SiVisualstudiocode className='text-primaryColor text-4xl m-2'/>
-            <SiGithub className='text-primaryColor text-4xl m-2'/>
-            <FaGit className='text-primaryColor text-4xl m-2'/>
-          </div>
-          <div className='basis-full flex justify-around my-5'>
-            <a href='https://mariuszmalankiewicz.github.io/Tic-Tac-Toe/' target='blank' className='text-primaryColor font-semibold text-base border-b-4 font-writeFamily rounded-md px-3 py-2'>Zobacz</a>
-            <a href='https://github.com/MariuszMalankiewicz/Tic-Tac-Toe' target='blank' className='text-primaryColor font-semibold text-base border-b-4 font-writeFamily rounded-md px-3 py-2'>Github</a>
-        </div>
-        </div>
-      </SwiperSlide>
 
     </Swiper>
     </div>

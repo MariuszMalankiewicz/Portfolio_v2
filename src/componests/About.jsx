@@ -8,7 +8,6 @@ export const About = () => {
       <div className='flex flex-col justify-start items-center lg:flex-row lg:flex-wrap'>
         <div className='mb-5 mt-10 lg:basis-1/2'>
           <img src="/images/me.jpg" className='w-44 sm:w-56 lg:w-64 xl:w-72 border lg:mr-20 xl:mr-32 rounded-md rotate-3' alt='photo about me'/>
-          {/* <img src="Portfolio_v2/images/me.jpg" className='w-44 sm:w-56 lg:w-64 xl:w-72 border lg:mr-20 xl:mr-32 rounded-md rotate-3' alt='photo about me'/> */}
         </div>
         <div className='mb-10 lg:mt-10 lg:basis-1/2'>
           <p className='text-primaryColor text-text-base xl:text-lg text-center'>Cześć!</p>
